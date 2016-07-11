@@ -9,6 +9,7 @@
     '@angular':                   'node_modules/@angular',
     'angular2-in-memory-web-api': 'node_modules/angular2-in-memory-web-api',
     'rxjs':                       'node_modules/rxjs'
+    '@angular2-material':         'node_modules/@angular2-material'
   };
   // packages tells the System loader how to load when no filename and/or no extension
   var packages = {
@@ -44,5 +45,14 @@
     map: map,
     packages: packages
   };
+  var materialPkgs = [
+    'core',
+    'button',
+    'card',
+    'toolbar'
+  ];
+  materialPkgs.forEach(function (pkg) {
+    packages[("@angular2-material/" + pkg)] = { main: pkg + ".js" };
+  });
   System.config(config);
 })(this);

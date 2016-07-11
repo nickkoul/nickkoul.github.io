@@ -9,6 +9,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var toolbar_1 = require('@angular2-material/toolbar');
+directives: [toolbar_1.MD_TOOLBAR_DIRECTIVES];
 var AppComponent = (function () {
     function AppComponent() {
     }
