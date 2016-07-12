@@ -10,14 +10,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var toolbar_1 = require('@angular2-material/toolbar');
-directives: [toolbar_1.MD_TOOLBAR_DIRECTIVES];
 var AppComponent = (function () {
     function AppComponent() {
     }
     AppComponent = __decorate([
         core_1.Component({
+            directives: [toolbar_1.MD_TOOLBAR_DIRECTIVES],
             selector: 'my-app',
-            template: '<h1>My First Angular 2 Website</h1>'
+            template: "\n    <md-toolbar class =\"ex-bar\"   [color]=\"accent\">\n      <span>Nicholas Koulopoulos Website</span>\n    </md-toolbar>\n  ",
+            styles: ["\n    .ex-bar {\n      background-color: #1C2B36;\n      color: #209e91;\n    }\n  "]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

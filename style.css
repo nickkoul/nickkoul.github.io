@@ -5,7 +5,13 @@ h1 {
 }
 body {
   margin: 2em;
+
 }
+.ex-bar{
+  color: #CFD8DC;
+  background-color: #CFD8DC;
+}
+
 
  /*
   * See https://github.com/angular/angular.io/blob/master/public/docs/_examples/styles.css
