@@ -1,1 +1,1 @@
-My Angular2 Website
+My Personal Website built with HTML, Javascript, SASS, Jekyll
